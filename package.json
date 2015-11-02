@@ -7,12 +7,14 @@
     "test": ""
   },
   "files": [
-    "package.json",
-    "README.md",
+    "rules",
     "index.js",
     "base.js",
     "legacy.js",
-    "rules"
+    "react.js",
+    "test",
+    "package.json",
+    "README.md"
   ],
   "author": "sugarshin",
   "license": "MIT",
