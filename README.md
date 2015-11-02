@@ -9,7 +9,7 @@ My ESLint shareable config
 ## Getting started
 
 ```
-npm i -D eslint-config-sugarshin
+npm i -D sugarshin/eslint-config-sugarshin
 ```
 
 ## Usage
