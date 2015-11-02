@@ -37,10 +37,9 @@ module.exports = {
     // http://eslint.org/docs/rules/eol-last
     'eol-last': 2,
 
-    // 無名関数は利用しない
-    // 名前が不必要な関数はArrow functionを利用する
+    // 無名関数の利用を警告
     // http://eslint.org/docs/rules/func-names
-    'func-names': 2,
+    'func-names': 1,
 
     // インデントはスペース2 switch文で条件式はインデントしない
     // http://eslint.org/docs/rules/indent
@@ -102,9 +101,8 @@ module.exports = {
     'object-curly-spacing': [2, 'always'],
 
     // 変数宣言時に1つの宣言でまとめない
-    // 初期化前の変数は1つでまとめる
     // http://eslint.org/docs/rules/one-var
-    'one-var': [2, { uninitialized: 'always', initialized: 'never' }],
+    'one-var': [2, 'never'],
 
     // 複数行に跨ぐ場合演算子の後で改行する
     // http://eslint.org/docs/rules/operator-linebreak
