@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sugarshin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My ESLint shareable config",
   "main": "index.js",
   "scripts": {
