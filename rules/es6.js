@@ -23,7 +23,8 @@ module.exports = {
   'rules': {
     // Arrow functionの省略できる`()`は省略する
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': [2, 'as-needed'],
+    // 'arrow-parens': [2, 'as-needed'],
+    'babel/arrow-parens': [2, 'as-needed'],
 
     // Arrow functionの`=>`の前後にはスペースを入れる
     // http://eslint.org/docs/rules/arrow-spacing

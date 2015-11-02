@@ -17,7 +17,7 @@ npm i -D sugarshin/eslint-config-sugarshin
 ### Standard (ES6)
 
 ```
-npm i -D sugarshin/eslint-config-sugarshin babel-eslint eslint
+npm i -D sugarshin/eslint-config-sugarshin babel-eslint eslint-plugin-babel eslint
 ```
 
 add `extends: 'sugarshin'` to `.eslintrc`
@@ -25,7 +25,7 @@ add `extends: 'sugarshin'` to `.eslintrc`
 ### ES6 + React
 
 ```
-npm i -D sugarshin/eslint-config-sugarshin babel-eslint eslint-plugin-react eslint
+npm i -D sugarshin/eslint-config-sugarshin babel-eslint eslint-plugin-babel eslint-plugin-react eslint
 ```
 
 add `extends: 'sugarshin/react'` to `.eslintrc`

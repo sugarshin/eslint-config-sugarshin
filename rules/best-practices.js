@@ -26,7 +26,7 @@ module.exports = {
     'dot-location': [2, 'property'],
 
     // http://eslint.org/docs/rules/dot-notation
-    'dot-notation': [2, { allowKeywords: false }]
+    'dot-notation': [2, { allowKeywords: false }],
 
     // 厳密比較を強制
     // `null`相当との比較には`==`と`!=`を許容する
@@ -170,11 +170,11 @@ module.exports = {
     'no-void': 0,
 
     // http://eslint.org/docs/rules/no-warning-comments
-    'no-warning-comments': 0
+    'no-warning-comments': 0,
 
     // `with`文の利用を許可しない
     // http://eslint.org/docs/rules/no-with
-    'no-with'
+    'no-with': 2,
 
     // 不必要な文字列、テンプレートリテラルの結合を許可しない
     // http://eslint.org/docs/rules/no-useless-concat
