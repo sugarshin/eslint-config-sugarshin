@@ -16,6 +16,13 @@
     "package.json",
     "README.md"
   ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
   "author": "sugarshin",
   "license": "MIT",
   "devDependencies": {
