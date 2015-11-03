@@ -6,6 +6,9 @@ module.exports = {
   'env': {
     'es6': true
   },
+  'ecmaFeatures': {
+    'modules': true
+  },
   'rules': {
     // Arrow functionの省略できる`()`は省略する
     // http://eslint.org/docs/rules/arrow-parens
