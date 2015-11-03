@@ -1,25 +1,11 @@
 module.exports = {
+  'parser': 'babel-eslint',
+  'plugins': [
+    'babel'
+  ],
   'env': {
     'es6': true
   },
-  // 'ecmaFeatures': {
-  //   'arrowFunctions': true,
-  //   'blockBindings': true,
-  //   'classes': true,
-  //   'defaultParams': true,
-  //   'destructuring': true,
-  //   'forOf': true,
-  //   'generators': false,
-  //   'modules': true,
-  //   'objectLiteralComputedProperties': true,
-  //   'objectLiteralDuplicateProperties': false,
-  //   'objectLiteralShorthandMethods': true,
-  //   'objectLiteralShorthandProperties': true,
-  //   'spread': true,
-  //   'superInFunctions': true,
-  //   'templateStrings': true,
-  //   'jsx': true
-  // },
   'rules': {
     // Arrow functionの省略できる`()`は省略する
     // http://eslint.org/docs/rules/arrow-parens

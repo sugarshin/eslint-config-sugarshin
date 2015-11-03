@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sugarshin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "devDependencies": {
     "babel-eslint": "^4.1.3",
     "eslint": "^1.8.0",
+    "eslint-plugin-babel": "^2.1.1",
     "eslint-plugin-react": "^3.6.3"
   },
   "peerDependencies": {
