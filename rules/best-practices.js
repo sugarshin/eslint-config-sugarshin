@@ -193,6 +193,6 @@ module.exports = {
     'wrap-iife': [2, 'inside'],
 
     // http://eslint.org/docs/rules/yoda
-    'yoda': 2,
+    'yoda': 2
   }
 };

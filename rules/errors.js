@@ -112,6 +112,6 @@ module.exports = {
 
     // `typeof`演算子が有効な文字列と比較されていること
     // http://eslint.org/docs/rules/valid-typeof
-    'valid-typeof': 2,
+    'valid-typeof': 2
   }
 };

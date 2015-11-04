@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "lint": "eslint . --ignore-pattern node_modules/**"
   },
   "files": [
     "rules",

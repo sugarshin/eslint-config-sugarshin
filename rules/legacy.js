@@ -17,6 +17,6 @@ module.exports = {
     'no-bitwise': 0,
 
     // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 0,
+    'no-plusplus': 0
   }
 };

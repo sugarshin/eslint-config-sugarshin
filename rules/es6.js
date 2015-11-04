@@ -72,6 +72,6 @@ module.exports = {
 
     // `yield`を持っていないGenerator functionを許可しない
     // http://eslint.org/docs/rules/require-yield
-    'require-yield': 2,
+    'require-yield': 2
   }
 };

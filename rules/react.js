@@ -41,6 +41,6 @@ module.exports = {
         'render'
       ]
     }],
-    'react/wrap-multilines': 2,
+    'react/wrap-multilines': 2
   }
 };
