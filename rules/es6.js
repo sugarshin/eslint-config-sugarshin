@@ -12,7 +12,6 @@ module.exports = {
   'rules': {
     // Arrow functionの省略できる`()`は省略する
     // http://eslint.org/docs/rules/arrow-parens
-    // 'arrow-parens': [2, 'as-needed'],
     'babel/arrow-parens': [2, 'as-needed'],
 
     // Arrow functionの`=>`の前後にはスペースを入れる
@@ -25,7 +24,7 @@ module.exports = {
 
     // Generator functionの`*`の前後のスペースは後ろのみ
     // http://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': [2, 'after'],
+    'babel/generator-star-spacing': [2, 'after'],
 
     // クラス宣言の再代入は許可しない
     // http://eslint.org/docs/rules/no-class-assign
@@ -50,7 +49,7 @@ module.exports = {
     // オブジェクトリテラルのプロパティやメソッドの定義は可能な限り
     // ショートハンドを利用する
     // http://eslint.org/docs/rules/object-shorthand
-    'object-shorthand': [2, 'always'],
+    'babel/object-shorthand': [2, 'always'],
 
     // 可能な限りコールバック関数はArrow functionで渡す
     // http://eslint.org/docs/rules/prefer-arrow-callback
