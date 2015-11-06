@@ -26,7 +26,7 @@ module.exports = {
     'dot-location': [2, 'property'],
 
     // http://eslint.org/docs/rules/dot-notation
-    'dot-notation': [2, { allowKeywords: false }],
+    'dot-notation': [2, { allowKeywords: true }],
 
     // 厳密比較を強制
     // `null`相当との比較には`==`と`!=`を許容する
