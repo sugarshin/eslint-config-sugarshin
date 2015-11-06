@@ -8,7 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ignore-pattern node_modules/**"
+    "lint": "eslint . --ignore-pattern node_modules/**",
+    "prepublish": "npm run lint"
   },
   "files": [
     "rules",
