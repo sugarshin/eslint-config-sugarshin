@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sugarshin",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "My ESLint shareable config",
   "repository": {
     "type": "git",
