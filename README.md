@@ -32,11 +32,13 @@ add `extends: 'sugarshin/react'` to `.eslintrc`
 
 ### Legacy
 
+less than ES6
+
 ```
 npm i -D eslint-config-sugarshin eslint
 ```
 
-add `extends: 'sugarshin/legacy'` to `.eslintrc`
+add `extends: 'sugarshin/base'` to `.eslintrc`
 
 ## Contributing
 

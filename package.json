@@ -13,12 +13,12 @@
   },
   "files": [
     "rules",
-    "index.js",
     "base.js",
-    "legacy.js",
-    "react.js",
+    "index.js",
     "package.json",
-    "README.md"
+    "react.js",
+    "README.md",
+    "standard.js"
   ],
   "keywords": [
     "eslint",
