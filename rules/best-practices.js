@@ -41,6 +41,10 @@ module.exports = {
     // http://eslint.org/docs/rules/no-caller
     'no-caller': 1,
 
+    // `switch`文内では適切にブロックをつくる
+    // http://eslint.org/docs/rules/no-case-declarations
+    'no-case-declarations': 2,
+
     // http://eslint.org/docs/rules/no-div-regex
     'no-div-regex': 0,
 
