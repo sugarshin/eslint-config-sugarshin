@@ -211,10 +211,6 @@ module.exports = {
     // http://eslint.org/docs/rules/space-before-function-paren
     'space-before-function-paren': [2, 'never'],
 
-    // キーワードの前に適切にスペースを入れる
-    // http://eslint.org/docs/rules/space-before-keywords
-    'space-before-keywords': [2, 'always'],
-
     // `()`の両内側にスペースを入れない
     // http://eslint.org/docs/rules/space-in-parens
     'space-in-parens': [2, 'never'],
