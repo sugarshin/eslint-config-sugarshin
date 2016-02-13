@@ -205,11 +205,7 @@ module.exports = {
 
     // キーワードの後ろに適切にスペースを入れる
     // http://eslint.org/docs/rules/space-after-keywords
-    'space-after-keywords': 2,
-
-    // ブロックの前には適切にスペースを入れる
-    // http://eslint.org/docs/rules/space-before-blocks
-    'space-before-blocks': [2, 'always'],
+    'keyword-spacing': 2,
 
     // functionの`()`の後ろにはスペースを入れない
     // http://eslint.org/docs/rules/space-before-function-paren
@@ -226,10 +222,6 @@ module.exports = {
     // 演算子の前後にはスペースを入れる
     // http://eslint.org/docs/rules/space-infix-ops
     'space-infix-ops': 2,
-
-    // `return`, `throw`, `case`の後ろにはスペースを入れる
-    // http://eslint.org/docs/rules/space-return-throw-case
-    'space-return-throw-case': 2,
 
     // 各単項演算子の後ろには適切にスペースを入れる
     // words - applies to unary word operators such as: new, delete, typeof, void, yield

@@ -52,9 +52,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-else-return
     'no-else-return': 2,
 
-    // http://eslint.org/docs/rules/no-empty-label
-    'no-empty-label': 2,
-
     // `null`相当との比較時のため許容
     // http://eslint.org/docs/rules/no-eq-null
     'no-eq-null': 0,

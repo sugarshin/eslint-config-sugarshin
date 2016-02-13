@@ -30,9 +30,9 @@ module.exports = {
     // http://eslint.org/docs/rules/generator-star-spacing
     'babel/generator-star-spacing': [2, 'after'],
 
-    // 制御構文の条件式等でArrow functionを許可しない
-    // http://eslint.org/docs/rules/no-arrow-condition
-    'no-arrow-condition': 2,
+    // 制御構文の条件式等でArrow functionを許可する
+    // http://eslint.org/docs/2.0.0/rules/no-confusing-arrow
+    'no-confusing-arrow': 0,
 
     // クラス宣言の再代入は許可しない
     // http://eslint.org/docs/rules/no-class-assign
